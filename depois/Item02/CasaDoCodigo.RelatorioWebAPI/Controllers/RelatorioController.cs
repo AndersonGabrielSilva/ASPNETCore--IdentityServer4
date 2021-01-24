@@ -8,8 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CasaDoCodigo.RelatorioWebAPI.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class RelatorioController : ControllerBase
     {
         private static readonly List<string> Relatorio =
