@@ -102,6 +102,8 @@ namespace CasaDoCodigo
             //        options.ClientId = Configuration["ExternalLogin:Google:ClientId"];
             //        options.ClientSecret = Configuration["ExternalLogin:Google:ClientSecret"];
             //    });
+
+            //Cria a injeção de dependencia para o httpCliente para o RelatorioHelper.
             services.AddHttpClient<IRelatorioHelper, RelatorioHelper>();
         }
 
